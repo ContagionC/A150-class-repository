@@ -1,12 +1,12 @@
 /**
- *  @author Put your name here
- *  @date Put the date here
+ *  @author Justin Recksiek
+ *  @date 2/8/2020
  *  @file h05.cpp
  */
 #include <string>
 using namespace std;
 
-string STUDENT = "WHO AM I?";  // Add your Canvas login name
+string STUDENT = "jrecksiek1";  // Add your Canvas login name
 
 // Write your function here
 
