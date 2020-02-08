@@ -1,6 +1,6 @@
 /**
- *  @author Put your name here
- *  @date Put the date here
+ *  @author Justin Recksiek
+ *  @date 2/7/20
  *  @file h04.cpp
  */
 #include <iostream>
@@ -8,11 +8,11 @@
 #include <string>
 using namespace std;
 
-string STUDENT = "WHO ARE YOU";  // Add your Canvas login name
+string STUDENT = "jrecksiek1";  // Add your Canvas login name
 extern string ASSIGNMENT;
 
 // Add your function declaration here
-
+string getStatus(double gpa, int credits, int honorsCredits);
 
 /**
  * Describe the purpose of your program here.
@@ -38,3 +38,7 @@ int run()
 }
 
 // Implement your function here
+string getStatus(double gpa, int credits, int honorsCredits)
+{
+	return "not graduating";
+}
